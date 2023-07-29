@@ -1,0 +1,28 @@
+.meals_container {
+  display: grid;
+  gap: 1em;
+  padding-top: 1em;
+}
+
+.summary_container {
+  text-align: center;
+  background-color: rgba(187, 199, 206, .6);
+  border-radius: .5rem;
+  padding: .5em;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.list_container {
+  display: grid;
+  gap: 1em;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px solid rgba(84, 92, 82, .4);
+}
+
+.price span {
+  color: #98e2c6;
+  font-weight: 700;
+}

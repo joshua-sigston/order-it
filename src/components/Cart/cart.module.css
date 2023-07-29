@@ -1,0 +1,11 @@
+.checkout_form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  overflow: scroll;
+}
+
+.checkout_form input {
+  background-color: whitesmoke;
+}

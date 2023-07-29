@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  gap: 1em;
+}
+
+.card_container {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: .5rem;
+  padding: .5em;
+}
+
+.backdrop {
+  background-color: rgba(187, 199, 206, 0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  place-content: center;
+}
+
+.modal {
+  background-color: rgb(255, 255, 255);
+  min-width: 15rem;
+  min-height: 10rem;
+  border-radius: .5rem;
+  padding: .5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input {
+  min-width: 2rem;
+}
